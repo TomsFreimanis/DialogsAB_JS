@@ -48,6 +48,62 @@ console.log("mainiga person datu tips: " + typeof person);
 
 </head>
 <body>
-    
+
+    <h2>JavaScript $</h2>
+
+<p>The dollar sign is treated as a letter in JavaScript names.</p>
+
+<p id="demo"></p>
+
+<script>
+var $ = 2;
+console.log("mainiga $ datu tips: " + typeof $);
+var $myMoney = 5;
+document.getElementById("demo").innerHTML = $ + $myMoney;
+</script>
+<h2>JavaScript $</h2>
+
+<p>The underscore is treated as a letter in JavaScript names.</p>
+
+<p id="demo"></p>
+
+<script>
+var _x = 2;
+console.log("mainiga x datu tips: " + typeof x);
+var _100 = 5;
+document.getElementById("demo").innerHTML = _x + _100;
+</script>
+
+<h2>JavaScript Variables</h2>
+
+<p>The result of adding 2 + 3 + "5":</p>
+
+<p id="demo"></p>
+
+<script>
+var x = 2 + 3 + "5";
+
+document.getElementById("demo").innerHTML = x;
+</script>
+
+<h2>JavaScript const</h2>
+
+<p>Declaring a constant array does NOT make the elements unchangeble:</p>
+
+<p id="demo1"></p>
+
+<script>
+// Create an Array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Change an element:
+cars[0] = "Toyota";
+
+// Add an element:
+cars.push("Audi");
+
+// Display the Array:
+document.getElementById("demo1").innerHTML = cars; 
+</script>
 </body>
 </html>
