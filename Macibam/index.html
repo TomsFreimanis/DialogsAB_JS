@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="id3">JavaScript Arrays</h2>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="error"></p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+    try
+    {
+const cars = ["Saab","Volvo","BMW"];
+document.getElementById("demo1").innerHTML = cars +   " - masiva garums - "  + cars.length;
+
+function myFunction() {
+    cars.push("BMW");
+    document.getElementById("demo2").innerHTML = cars;
+}
+//let shifted_value = cars.shift();
+//document.getElementById("demo2").innerHTML = cars +   " - masiva garums - "  + cars.length;
+
+//document.getElementById("demo3").innerHTML = " - izgriesta vertiba - " + shifted_value;
+
+//document.getElementById("demo3").innerHTML = cars[3];
+    }
+    catch(err)
+    {
+        document.getElementById("error").innerHTML = err;
+    }
+
+</script>
+
+</body>
+</html>
