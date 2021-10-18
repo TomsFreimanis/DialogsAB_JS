@@ -27,12 +27,13 @@
  var conclusion = "...";
 
 var temp;
-
+// const array = [a,b,c]
+//Array.sort();
 if (a > b) {temp = a; a = b; b = temp;}
 if (b >c) {temp = b; b = c; c = temp;}
 if (a > b) {temp = a; a = b; b = temp;}
     
-
+//document.getElementById("demo").innerHTML =array.[0] + " " + array[1] + " " + array[2];
 
 document.getElementById("demo").innerHTML = a + " " + " " + b + " " + c ;
 }
