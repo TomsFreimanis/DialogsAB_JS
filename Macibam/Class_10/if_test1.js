@@ -1,41 +1,83 @@
+function getcurrency(){
+  
+  switch (document.getElementById("currency").value) }
+  case "EUR":
+    currency = "EUR";
+  break;
+  case "USD":
+  break;
+  currency = "USD";
+  case "GBP":
+  break;
+  currency = "GBP";
+  case "CAD":
+  currency = "CAD";
+  break;
+  document.getElementById("demo").innerHTML = " You chose " + currency;}
 
-// if (new Date().getHours() < 18) {
-  //document.getElementById("demo").innerHTML = "Good day!";
-//}
- function compare_two() {
- var a = document.getElementById("aval").value;
- var b = document.getElementById("bval").value;
 
- var conclusion = "";
 
- if (a > b) {
-     conclusion = "a ("+ a +") is bigger than ("+ b +")"; 
- }
- else if (a < b) {
-    conclusion = " a ("+ a +") is smaller than ("+ b +")";
+
+
+
+function test2 (){let day; "";
+let dayg; "";
+switch (new Date().getDay()  ) {
+case 0:
+case 6:
+    default:
+    day = "unfortunelty neither Saturday neither Sunday"
+  
+
+    day = "weekend day";
+    break;
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+    day = "non weeked day";
+    break;
+    default:
+        dayg = "error - such a day numer isnt possible"
+
+
 }
- else { 
-     conclusion = " a ("+ a + ") is equal to be (" + b + ")";
- }
+document.getElementById("demo").innerHTML = "Today is " + day; "today is" + day + " (" + dayg + ")";
 
- {
-     document.getElementById("demo").innerHTML = conclusion;
- }
-  function compare_three() {
- var a =  document.getElementById("aval").value;
- var b =  document.getElementById("bval").value;
- var c =  document.getElementById("cval").value;
- var conclusion = "...";
-
-var temp;
-// const array = [a,b,c]
-//Array.sort();
-if (a > b) {temp = a; a = b; b = temp;}
-if (b >c) {temp = b; b = c; c = temp;}
-if (a > b) {temp = a; a = b; b = temp;}
-    
-//document.getElementById("demo").innerHTML =array.[0] + " " + array[1] + " " + array[2];
-{
-document.getElementById("demo").innerHTML = a + " " + " " + b + " " + c ;
 }
+function test1(){
+let day; "";
+let dayg; "";
+switch (new Date().getDay()  ) {
 
+    default:
+    day = "unfortunelty neither Saturday neither Sunday"
+   //break;
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+    case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break; 
+  case  6:
+    day = "Saturday";
+
+//default:
+    //day = "unfortunelty neiger Saturday neither Sunday"
+
+}
+document.getElementById("demo").innerHTML = "Today is " + day; "today is" + day + " (" + dayg + ")";
+}
