@@ -1,3 +1,9 @@
+
+
+
+
+
+
 function getCurrency() {
   
 var el =  document.getElementById('currency').value;
