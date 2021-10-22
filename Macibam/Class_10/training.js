@@ -1,26 +1,34 @@
-function getcurrency(){
+function getCurrency() {
   
-  switch (document.getElementById("currency").value) }
-  case "EUR":
+var el =  document.getElementById('currency').value;
+let currency = "";
+switch (el) {
+
+case "EUR":
     currency = "EUR";
-  break;
-  case "USD":
-  break;
-  currency = "USD";
-  case "GBP":
-  break;
-  currency = "GBP";
-  case "CAD":
-  currency = "CAD";
-  break;
-  document.getElementById("demo").innerHTML = " You chose " + currency;}
+    break;
+case "USD":
+  
+    currency = "USD";
+    break; 
+
+ case "GBP":
+    currency = "GBP";
+    break;
+
+case "CAD":
+    currency = "CAD";
+ 
+}
+  document.getElementById("demo").innerHTML = " You chose " + currency;
+}
 
 
 
 
 
 
-function test2 (){let day; "";
+/*function test2 (){let day; "";
 let dayg; "";
 switch (new Date().getDay()  ) {
 case 0:
