@@ -17,6 +17,18 @@
    - Using var
     Using let
     Using const
-
 - The logical OR (||) operator 
 - The equality operator (==); console.log(1 == 1); console.log('hello' == 'hello');console.log('1' ==  1); console.log(0 == false);
+## Window prompt() Method
+- The prompt() method displays a dialog box that prompts the visitor for input. 
+- Syntax
+prompt(text, defaultText)
+
+###  - parseInt() - saskaitāms skaitlis !
+### - bet decimāl numbers parsenFloat ()
+The parseInt() function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).
+
+
+# [https://www.youtube.com/watch?v=JQ-wmaarWTQ] labs video channels, kur pamācities
+
+

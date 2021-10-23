@@ -51,7 +51,7 @@ document.getElementById("demo").innerHTML = "šodien ir " + day +  "!!!"; */
 
 
 
-function myFunction() {
+/*function myFunction() {
   var text;
   var novads = prompt("What's your favorite cocktail drink?", "Latgale");
   switch(novads) {
@@ -72,4 +72,60 @@ function myFunction() {
       text = "Tāda novada nav vai tu nepareizi ierakstīji. :(";
   }
   document.getElementById("demo").innerHTML = text;
+} */
+
+/*var name = window.prompt("What is your name");
+var age = window.prompt("How old are you?");
+document.write("Hey " + name + ", How are you today. Do u like being " + age + " years old ?");*/
+
+
+/*var num1 = prompt("Enter number");
+var num2 = prompt("Enter another number");
+
+
+num1 = parseFloat(num1);
+ num2 = parseFloat(num2);
+
+document.write(num1 + num2); */
+/*var fruits = ["Apples", "Oranges", "Peaches"];
+fruits [0] = "Oranges"
+document.write (fruits [0] ); */
+
+var operation = promt("Please enter operation (+,-,/,%): ");
+var operation = promt("Please enter first number: ").replace(",", ".");
+var operation = promt("Please enter second operation ").replace(",", ".");
+
+firstNumber = parsFloat(firstNumber);
+secondNumber = parsFloat(secondNumber);
+
+let result;
+let error = "";
+let errorTwo = "";
+switch (operation) {
+  case "+":
+    result = firstNumber + secondNumber;
+    break;
+  case "-":
+    result = firstNumber - secondNumber;
+    break;
+  case "*":
+    result = firstNumber * secondNumber;
+    break;
+  case "/":
+    result = firstNumber / secondNumber;
+    break;
+  case "%":
+    result = firstNumber % secondNumber;
+    break;
+    default:
+      error = "You have entered wrong operation ;("
+
 }
+if (result == undefined) {
+  errortwo = "At least one variable is not number";
+}
+document.getElementById("demo").innerHTML = "Value is" + result + " " error + errorTwo;
+
+
+ 
+
