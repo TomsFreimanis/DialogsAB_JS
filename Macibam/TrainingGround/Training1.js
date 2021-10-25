@@ -51,7 +51,7 @@ document.getElementById("demo").innerHTML = "šodien ir " + day +  "!!!"; */
 
 
 
-/*function myFunction() {
+/* function myFunction() {
   var text;
   var novads = prompt("What's your favorite cocktail drink?", "Latgale");
   switch(novads) {
@@ -91,7 +91,7 @@ document.write(num1 + num2); */
 fruits [0] = "Oranges"
 document.write (fruits [0] ); */
 
-var operation = promt("Please enter operation (+,-,/,%): ");
+ /* var operation = promt("Please enter operation (+,-,/,%): ");
 var operation = promt("Please enter first number: ").replace(",", ".");
 var operation = promt("Please enter second operation ").replace(",", ".");
 
@@ -124,7 +124,7 @@ switch (operation) {
 if (result == undefined) {
   errortwo = "At least one variable is not number";
 }
-document.getElementById("demo").innerHTML = "Value is" + result + " " error + errorTwo;
+document.getElementById("demo").innerHTML = "Value is" + result + " " error + errorTwo; */
 
 
  
