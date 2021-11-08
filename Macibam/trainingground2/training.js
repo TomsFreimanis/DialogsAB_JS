@@ -55,15 +55,21 @@
     
 }
 
+
 function doMath() {
     var n1 = Number(document.getElementById('num1').value);
     var n2 = Number(document.getElementById('num2').value);
+    var n3 = Number(document.getElementById('num3').value);
+
 
 var sum = addFormula(n1,n2);
 var sub = substractFormula(n1,n2);
+var result= result;
+
 
 console.log(sum);
 console.log(sub);
+document.write(result);
 
 
 }
