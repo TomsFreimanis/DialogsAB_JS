@@ -1,11 +1,13 @@
-const search = document.getElementById('search'),
+const search = document.getElementById('search'), 
   submit = document.getElementById('submit'),
   random = document.getElementById('random'),
   mealsEl = document.getElementById('meals'),
   resultHeading = document.getElementById('result-heading'),
   single_mealEl = document.getElementById('single-meal');
+  // The Document method getElementById() returns an Element object representing the element whose id property matches the specified string
 
-// Search meal and fetch from API
+// Search meal and fetch from API 
+// Application Programming Interfaces (APIs) are constructs made available in programming languages to allow developers to create complex functionality more easily.
 function searchMeal(e) {
   e.preventDefault();
 
@@ -43,11 +45,12 @@ function searchMeal(e) {
     // Clear search text
     search.value = '';
   } else {
-    alert('Please enter a search term');
+    alert('Please enter a search term'); // alert who popup when u didnt enter anything
   }
 }
 
 // Fetch meal by ID
+//The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.
 function getMealById(mealID) {
   fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealID}`)
     .then(res => res.json())
@@ -73,11 +76,11 @@ function getRandomMeal() {
     });
 }
 
-// Add meal to DOM              
-function addMealToDOM(meal) {
+// Add meal to DOM            
+function addMealToDOM(meal) { // The HTML DOM is a standard object model and programming interface for HTML. 
   const ingredients = [];
-// Loop
-  for (let i = 1; i <= 20; i++) {
+// Loop - Loops are handy, if you want to run the same code over and over again, each time with a different value.
+  for (let i = 1; i <= 20; i++) { //for - loops through a block of code a number of times
     if (meal[`strIngredient${i}`]) {
       ingredients.push(
         `${meal[`strIngredient${i}`]} - ${meal[`strMeasure${i}`]}`
@@ -106,7 +109,7 @@ function addMealToDOM(meal) {
   `;
 }
 
-// Event listeners
+// Event listeners The addEventListener() method of the EventTarget interface sets up a function that will be called whenever the specified event is delivered to the target.
 submit.addEventListener('submit', searchMeal);
 random.addEventListener('click', getRandomMeal);
 
