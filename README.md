@@ -22,7 +22,23 @@ vertiba(u) ievietosana un dzesana - splice (kur sak cik izgriez, [ko ievietot]) 
 - masiva palidinasa - concat() (neitiek mainits sakuma masivs)
 - Masiva vertibu kopesanas - slice (no kura indekas, lidz kuram to neieskaitot)(netiek mainits sakuma masivs)
 - Masiva vertibu kartosana - sort()(tiek izmainits pats masivs)
-- Masiva "pageiesana otradi" - reverse()
-- Masivu ar skaitliem kartosanai ir japievieno papildu konkstrukcija "konstrukcija" sort(function(a,b){retunr a - b })
-- Min izgusnaa var izmantot sort() metodi un [0] indeksu (vajadziba gadijuma izmantot masiva kopiju)
-- Max vertibas iezgusanai var izmentot sort() metodi un [N-1] indeksu, kur N ir masiva garums (vajadziba gadijuma izmantot masiva kopiju)
+- Masiva "pagriesana otradi" - reverse()
+- Masivu ar skaitliem kartosanai ir japievieno papildu konkstrukcija "konstrukcija" sort(
+    a)
+```code fragmeni 
+const object_name = {};
+
+```
+- using construciton fucntion (izmantojot konstruktora funkciju)
+function creatNewOjbect(....){.....}
+const objec_name = creatNewObject(...);
+```
+- isi (bez ieksha tuksha objekta, bet imantojot atslegas vardu
+```new```)
+
+- standarta objekta konstruktors 
+``` const object_name = new object();```
+- using the creat() method (kaa prototipu izmantojot kadu jau esosu objektu)
+```
+let new_object_name = object.Creat(name);
+```
