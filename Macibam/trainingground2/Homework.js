@@ -4,7 +4,7 @@ const search = document.getElementById('search'),
   mealsEl = document.getElementById('meals'),
   resultHeading = document.getElementById('result-heading'),
   single_mealEl = document.getElementById('single-meal');
-  console.log("random is " + typeof random  );
+ 
 
   // The Document method getElementById() returns an Element object representing the element whose id property matches the specified string
 

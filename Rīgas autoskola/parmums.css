@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+#aboutus h2{margin-bottom:25px;}
+.img-wrap{width: 100%;}
+.img-wrap img{width: 100%;padding: 10px;border-radius:50%;box-shadow:  0 0 10px #d4c2c2;}
+
+
+body {
+      /* background-image: url("opel.jpg");  */
+    background-color: #2e1919;
+  
+}
+h2 {
+    color:rgb(255, 255, 255);
+    font-size: x-large;
+    font: small-caps bold 24px/1 sans-serif;
+}
+p {
+    color:rgb(255, 255, 255);
+    font: italic small-caps bold 16px/2 cursive;
+   font-size:x-large;    
+}
+
+
