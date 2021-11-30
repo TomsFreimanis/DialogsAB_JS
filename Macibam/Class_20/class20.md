@@ -6,6 +6,9 @@
 - The window object exposes the functionality of the web browser.
  - The window object provides methods for manipulating a window such as open(), resize(), resizeBy(), moveTo(), moveBy(), and close().
 
+
+
+
  #### Alert – display an alert dialog.
  ##### To invoke an alert system dialog, you invoke the alert() method of the window object.
  - The alert() is a method of the window object.
@@ -34,3 +37,9 @@
 #### The setInterval() is a method of the window object. The setInterval() repeatedly calls a function with a fixed delay between each call.
 - The setInterval() repeatedly calls a function once a fixed delay between each call.
 - The setInterval() returns a timeoutID that can be passed to the clearInterval() to cancel the timeout.
+
+In this syntax:
+
+The callback is a callback function to be executed every delay milliseconds.
+The delay is the time (in milliseconds) that the timer should delay between executions of the callback function.
+The arg1, … argN are the arguments that are passed to the callback function.
