@@ -133,7 +133,7 @@ http://www.templatemo.com/tm-515-eatery
   .about-image img,
   .team-thumb img {
     width: 100%;
-    /* border-radius: 100%; */
+    /* border-radius: 100%;  */
    
   }
   
@@ -275,7 +275,7 @@ http://www.templatemo.com/tm-515-eatery
   .custom-navbar .nav li a {
     font-size: 20px;
     font-weight:bold ;
-    color: #fcfcf6;
+    color: #d41717;
     padding-right: 15px;
     padding-left: 15px;
     text-transform: uppercase;
@@ -284,7 +284,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #ce3232;
+    color: #000000;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -416,38 +416,35 @@ http://www.templatemo.com/tm-515-eatery
     height: 800px;
   }
 
-  .slider .item-first {
-    background-image: url(Images/r2.jpeg);
+  /* .slider .item-first {
+    background-image: url(Images/team\ balts.JPEG);
     width: 100%;
-  }
+  } */
 
   .slider .item-second {
-    background-image: url(Images/wallpaper.jpg);
+    background-image: url(Images/augsti\ kvalificeti.JPEG);
   }
-
+/* 
   .slider .item-third {
-    background-image: url(Images/r3.jpeg);
-  }
+    background-image: url(Images/f3.JPEG);
+  } */
 
   .slider .item-second .section-btn {
     background: #292929;
-  }
-
-  .slider .item-second .section-btn:hover {
     background: #ffffff;
   }
-
+/* 
   .slider .item-third .section-btn {
     background: transparent;
-    border: 1px solid #ffffff;
+    border: 1px solid #ffffff; */
   }
 
-  .slider .item-third .section-btn:hover,
+  /* .slider .item-third .section-btn:hover,
   .slider .item-third .section-btn:focus {
     background: #ce3232;
     border-color: transparent;
     color: #ffffff;
-  }
+  } */
 
 
 

@@ -43,3 +43,17 @@ In this syntax:
 The callback is a callback function to be executed every delay milliseconds.
 The delay is the time (in milliseconds) that the timer should delay between executions of the callback function.
 The arg1, … argN are the arguments that are passed to the callback function.
+
+
+### ``` Section 2. Location```
+#### ```JavaScript Location properties ```
+``` location objects ``` The location object contains information about the current URL.
+-  ```origin ``` The origin property returns the protocol, hostname and port number of a URL.
+- ```  protocol```The protocol property sets or returns the protocol of the current URL, including the colon (:).
+- ```host ``` The host property of the Location interface is a USVString containing the host, that is the hostname, and then, if the port of the URL is nonempty, a ':', and the port of the URL.
+- ``` hostname ``` The hostname property sets or returns the hostname of a URL.
+- ``` port ```  The port property of the URL interface is a USVString containing the port number of the URL. If the URL does not contain an explicit port number, it will be set to ''.
+- ``` pathname ```The pathname property of the Location interface is a USVString containing the path of the URL for the location, which will be the empty string if there is no path.
+- ``` search ```   search
+- ``` hash ``` The hash property of the Location interface returns a USVString containing a '#' followed by the fragment identifier of the URL — the ID on the page that the URL is trying to target.
+- ``` href ``` The href property sets or returns the entire URL of the current page.
