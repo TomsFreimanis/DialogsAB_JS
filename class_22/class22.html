@@ -17,7 +17,7 @@
       e.preventDefault();
       formData = new FormData(formElem);
      
-      let response = await fetch('http://127.0.0.1:105/?'+
+      let response = await fetch('127.0.0.1:5500?'+
                                  'param1='+formData.get('name')+
                                  '&param2='+formData.get('surname'),
         {method: 'POST',
