@@ -40,7 +40,7 @@ http://www.templatemo.com/tm-515-eatery
 
   h3 {
     font-size: 1.5em;
-    margin-bottom: 0;
+    margin-bottom:5 em;
     font-weight: normal;
     
   }
@@ -223,7 +223,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .custom-navbar .navbar-brand {
-    color: #ffffff;
+    color: #000000;
     font-size: 18px;
     font-weight: bold;
   }
@@ -242,11 +242,11 @@ http://www.templatemo.com/tm-515-eatery
   }
 /* mob number nav bar */
   .custom-navbar .navbar-nav.navbar-right li a {
-    padding-right: 12px;
-    padding-left: 12px;
-    font-size:35px;
+    padding-right: 18x;
+    padding-left: 18px;
+     font-size: 20px;
     font-style: oblique;
-    color: rgb(192, 36, 36);
+    color: rgb(192, 36, 36); 
   }
 
   .custom-navbar .navbar-nav.navbar-right .section-btn {
@@ -257,6 +257,7 @@ http://www.templatemo.com/tm-515-eatery
   .custom-navbar .navbar-nav.navbar-right .section-btn:hover {
     background: #dad1d1;
     color: #0f0202;
+    
     
   }
 
@@ -276,8 +277,8 @@ http://www.templatemo.com/tm-515-eatery
     font-size: 20px;
     font-weight:bold ;
     color: #d41717;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
     text-transform: uppercase;
     font-style: unset;
   }
@@ -423,12 +424,12 @@ http://www.templatemo.com/tm-515-eatery
 
   .slider .item-second {
     
-    background-image: url(Images/r3.JPEG);
+    background-image: url(Images/jankas\ opel2.JPG);
    
   }
  
   .slider .item-third {
-    background-image: url(Images/jankas\ opel2.JPG);
+    background-image: url(Images/r3.jpeg);
    
   }
   
@@ -775,12 +776,12 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   footer h2 {
-    font-size: 60px;
+    font-size: 60xp;
   }
 
  
   footer p {
-    color: #410202;
+    color: #334102;
     font-size: 30px;
   }
 footer a {
@@ -1019,7 +1020,7 @@ footer a {
     }
 
     h2 {
-      font-size: 1.8em;
+      font-size: 2.8em;
     }
 
     .menu-thumb .menu-info {
@@ -1029,5 +1030,3 @@ footer a {
   div.a {
     text-align: right;
   }
-
- 

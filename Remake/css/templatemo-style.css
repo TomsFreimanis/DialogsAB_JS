@@ -403,7 +403,10 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item-first {
-    background-image: url(../images/augsti\ kvalificeti2.jpg);
+    background-image: url(../images/logo2.jpg);
+    
+    padding: 55px;
+    width: 100%;
   }
 
   .slider .item-second {
