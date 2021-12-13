@@ -15,8 +15,8 @@ form {
   background: transparent;
   border: none;
   outline: none;
-  border-bottom: 1px solid gray;
-  color:thistle;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color:rgb(255, 0, 0);
   font-size: 18px;
   margin-bottom:22px;
   border-style: groove;
@@ -55,3 +55,4 @@ body {
   background-color: #ffffff;
 }
 
+.showhand:hover { cursor:pointer} 

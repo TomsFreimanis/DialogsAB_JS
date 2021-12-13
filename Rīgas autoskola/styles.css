@@ -10351,3 +10351,11 @@ body {
   padding: 5rem 0;
 }
 
+.logo {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px; 
+    }
